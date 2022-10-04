@@ -1,0 +1,81 @@
+.page-header{
+    background-color: #90A4AE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    position: relative;
+}
+.h-text{
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.navigation{
+    background-color: #B0BEC5;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.main-content{
+    background-color: #CFD8DC;
+}
+.p-text{
+    color: #181f22;
+    font-family: 'Courier New', Courier, monospace;
+}
+.h-img{
+    height: 5%;
+    width: 5%;
+}
+#p1-pics{
+ display: flex;
+ position: relative;
+ top: 20px;
+ justify-content: space-around;
+}
+.p1-img{
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+}
+.text-content{
+margin: 20px 100px;
+padding-bottom: 20px;
+}
+.h-main{
+    text-align: center;
+    text-decoration: underline;
+}
+.h2-main{
+    text-align: center;
+}
+.p-main{
+    text-align: center;
+    border: #546E7A solid;
+}
+.page-footer{
+    background-color: #B0BEC5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.all{
+    background-color: #546E7A;
+}
+.list-pic{
+    height: 100px;
+    width: 300px;
+    object-fit: cover;
+}
+.p4-gallary{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+.p4-img{
+    height: 600px;
+    width: 300px;
+    object-fit: cover;
+}
