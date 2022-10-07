@@ -67,6 +67,7 @@ padding-bottom: 20px;
     height: 100px;
     width: 300px;
     object-fit: cover;
+    padding: 20px;
 }
 .p4-gallary{
     display: grid;
@@ -78,4 +79,17 @@ padding-bottom: 20px;
     height: 600px;
     width: 300px;
     object-fit: cover;
+}
+.p2-form{
+    border: 0px transparent;
+    position: relative;
+    top: -40px;
+}
+.input{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+}
+.button{
+    text-align: center;
 }
